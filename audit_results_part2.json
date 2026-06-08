@@ -1,0 +1,147 @@
+[
+  {
+    "calculator": "apr",
+    "pass": true,
+    "output": "Test Case 1:\n  M_PI: 483.32\n  APR: 6.843%\nTest Case 2:\n  M_PI: 580.54\n  APR: 7.691%\nTest Case 3:\n  M_PI: 1498.88\n  APR: 6.306%\nTest Case 4:\n  M_PI: 2838.95\n  APR: 5.721%"
+  },
+  {
+    "calculator": "asphalt",
+    "pass": true,
+    "output": "10x10x2 Driveway (Asphalt): { tons: 1.2083333333333333, tackCoat: 0.5555555555555556, sqFt: 100 }\n20x20x4 Parking Lot (Asphalt): { tons: 9.666666666666666, tackCoat: 2.2222222222222223, sqFt: 400 }\n40ft Cul-de-sac 3in deep (Asphalt): {\n  tons: 22.776546738526,\n  tackCoat: 6.981317007977319,\n  sqFt: 1256.6370614359173\n}"
+  },
+  {
+    "calculator": "bag",
+    "pass": true,
+    "output": "Patio Slab (10x10x4, 0% waste): { cuYards: 1.2345679012345678, bags80: 56 }\nSidewalk (20x3x4, 10% waste): { cuYards: 0.8148148148148148, bags60: 49 }\nShed (12x12x6, 10% waste): { cuYards: 2.9333333333333336, bags80: 132 }\nGarage (24x24x6, 10% waste): { cuYards: 11.733333333333334, bags80: 528 }\nFoundation (40x30x8, 10% waste): { cuYards: 32.592592592592595, bags80: 1467 }"
+  },
+  {
+    "calculator": "block",
+    "pass": true,
+    "output": "10x10 wall, 8x16 nominal block, 10% waste: {\n  wallAreaSqFt: 100,\n  blockFaceAreaSqFt: 0.8888888888888888,\n  rawBlocks: 112.5,\n  wasteAdjustedBlocks: 124,\n  estimatedPallets: 2,\n  estimatedMortarBags: 4\n}\n50x6 wall, 8x16 nominal block, 5% waste: {\n  wallAreaSqFt: 300,\n  blockFaceAreaSqFt: 0.8888888888888888,\n  rawBlocks: 337.5,\n  wasteAdjustedBlocks: 355,\n  estimatedPallets: 4,\n  estimatedMortarBags: 11\n}"
+  },
+  {
+    "calculator": "block_benchmarks",
+    "pass": true,
+    "output": "Garden Wall (20x4, 10% waste): {\n  wallAreaSqFt: 80,\n  blockFaceAreaSqFt: 0.8888888888888888,\n  rawBlocks: 90,\n  wasteAdjustedBlocks: 100,\n  estimatedPallets: 2,\n  estimatedMortarBags: 3\n}\nRetaining Wall (30x6, 10% waste): {\n  wallAreaSqFt: 180,\n  blockFaceAreaSqFt: 0.8888888888888888,\n  rawBlocks: 202.5,\n  wasteAdjustedBlocks: 223,\n  estimatedPallets: 3,\n  estimatedMortarBags: 7\n}\nBasement Wall (40x8, 10% waste): {\n  wallAreaSqFt: 320,\n  blockFaceAreaSqFt: 0.8888888888888888,\n  rawBlocks: 360,\n  wasteAdjustedBlocks: 397,\n  estimatedPallets: 5,\n  estimatedMortarBags: 12\n}\nCommercial Wall (100x12, 10% waste): {\n  wallAreaSqFt: 1200,\n  blockFaceAreaSqFt: 0.8888888888888888,\n  rawBlocks: 1350,\n  wasteAdjustedBlocks: 1486,\n  estimatedPallets: 17,\n  estimatedMortarBags: 45\n}"
+  },
+  {
+    "calculator": "bmi",
+    "pass": true,
+    "output": "Test Case 1:\n  Expected Category: Normal Weight\n  Calc BMI: 23.0\n  Calc Category: Normal Weight\n  Pass: true\nTest Case 2:\n  Expected Category: Underweight\n  Calc BMI: 18.2\n  Calc Category: Underweight\n  Pass: true\nTest Case 3:\n  Expected Category: Overweight\n  Calc BMI: 29.5\n  Calc Category: Overweight\n  Pass: true\nTest Case 4:\n  Expected Category: Obesity\n  Calc BMI: 40.3\n  Calc Category: Obesity\n  Pass: true\nTest Case 5:\n  Expected Category: Normal Weight\n  Calc BMI: 23.1\n  Calc Category: Normal Weight\n  Pass: true"
+  },
+  {
+    "calculator": "bmr",
+    "pass": true,
+    "output": "Test Case 1:\n  Mifflin: 1808\n  Harris: 1894\nTest Case 2:\n  Mifflin: 1356\n  Harris: 1416\nTest Case 3:\n  Mifflin: 1921\n  Harris: 2047\nTest Case 4:\n  Mifflin: 1306\n  Harris: 1384\nTest Case 5:\n  Mifflin: 1755\n  Harris: 1825"
+  },
+  {
+    "calculator": "bodyfat",
+    "pass": true,
+    "output": "Test Case 1:\n  Calc BF%: 17.4\nTest Case 2:\n  Calc BF%: 25.3\nTest Case 3:\n  Calc BF%: 28.3\nTest Case 4:\n  Calc BF%: 44.4\nTest Case 5:\n  Calc BF%: 16.9"
+  },
+  {
+    "calculator": "calorie",
+    "pass": true,
+    "output": "Test Case 1:\n  Expected Activity Mult: 1.55\n  BMR: 1808\n  TDEE: 2802\nTest Case 2:\n  Expected Activity Mult: 1.375\n  BMR: 1356\n  TDEE: 1864\nTest Case 3:\n  Expected Activity Mult: 1.725\n  BMR: 1921\n  TDEE: 3314\nTest Case 4:\n  Expected Activity Mult: 1.2\n  BMR: 1306\n  TDEE: 1567\nTest Case 5:\n  Expected Activity Mult: 1.9\n  BMR: 1755\n  TDEE: 3335"
+  },
+  {
+    "calculator": "concrete_validation",
+    "pass": true,
+    "output": "10x10 slab, 4 inches deep, 10% waste: {\n  cubicYards: 1.3580246913580245,\n  cubicFeet: 36.666666666666664,\n  bags80lb: 62,\n  trucksRequired: 1\n}\n5 steps, 4ft wide, 11in tread, 7in riser: {\n  cubicYards: 0.39609053497942387,\n  cubicFeet: 10.694444444444445,\n  bags80lb: 18,\n  trucksRequired: 1\n}"
+  },
+  {
+    "calculator": "crushedstone",
+    "pass": true,
+    "output": "10x10x4 Driveway Base (10% Compaction): {\n  cuFeet: 36.666666666666664,\n  cuYards: 1.3580246913580245,\n  tons: 1.9012345679012344,\n  bags50: 77\n}\n12ft diameter Fire Pit Base 6in deep (0% Compaction): {\n  cuFeet: 56.548667764616276,\n  cuYards: 2.0943951023931953,\n  tons: 2.9321531433504733,\n  bags50: 118\n}"
+  },
+  {
+    "calculator": "deck",
+    "pass": true,
+    "output": "10x10 Standard Wood Deck (16 O.C., 10% Waste): {\n  sqFt: 100,\n  deckingLF: 234.66666666666669,\n  boards16: 15,\n  joistLF: 132,\n  screws: 386\n}\n20x12 Composite Deck (12 O.C., 15% Waste): {\n  sqFt: 240,\n  deckingLF: 588.8,\n  boards16: 37,\n  joistLF: 363.4,\n  screws: 1288\n}"
+  },
+  {
+    "calculator": "fence_cost",
+    "pass": true,
+    "output": "Scenario 1 (100ft Pine, 6ft, 1 Gate, Flat, DIY): {\n  \"materialCost\": {\n    \"low\": 1200,\n    \"high\": 1800\n  },\n  \"laborCost\": {\n    \"low\": 0,\n    \"high\": 0\n  },\n  \"gateCost\": {\n    \"low\": 150,\n    \"high\": 250\n  },\n  \"totalCost\": {\n    \"low\": 1350,\n    \"high\": 2050\n  }\n}\nScenario 2 (150ft Cedar, 8ft, 2 Gates, Sloped, PRO): {\n  \"materialCost\": {\n    \"low\": 3780,\n    \"high\": 5250\n  },\n  \"laborCost\": {\n    \"low\": 2812.5,\n    \"high\": 4687.5\n  },\n  \"gateCost\": {\n    \"low\": 500,\n    \"high\": 800\n  },\n  \"totalCost\": {\n    \"low\": 7092.5,\n    \"high\": 10737.5\n  }\n}\nScenario 3 (200ft Vinyl, 4ft, 0 Gates, Rocky, PRO): {\n  \"materialCost\": {\n    \"low\": 3750,\n    \"high\": 5250\n  },\n  \"laborCost\": {\n    \"low\": 3600,\n    \"high\": 6000\n  },\n  \"gateCost\": {\n    \"low\": 0,\n    \"high\": 0\n  },\n  \"totalCost\": {\n    \"low\": 7350,\n    \"high\": 11250\n  }\n}"
+  },
+  {
+    "calculator": "fence_posts",
+    "pass": true,
+    "output": "Scenario 1 (4x4 Wood, 8in Auger, 24in Deep): {\n  totalPosts: 14,\n  totalSections: 13,\n  concrete80lbBags: 13,\n  concrete50lbBags: 20,\n  dirtDisplacedCuYards: 0.47\n}\nScenario 2 (6x6 Wood, 12in Auger, 48in Deep): {\n  totalPosts: 22,\n  totalSections: 21,\n  concrete80lbBags: 85,\n  concrete50lbBags: 137,\n  dirtDisplacedCuYards: 3.33\n}\nScenario 3 (Steel Pipe, 6in Auger, 36in Deep): {\n  totalPosts: 23,\n  totalSections: 20,\n  concrete80lbBags: 19,\n  concrete50lbBags: 30,\n  dirtDisplacedCuYards: 0.65\n}"
+  },
+  {
+    "calculator": "fence_v3",
+    "pass": true,
+    "output": "Wood (100ft, 8ft O.C., 24in hole, 3-rail, 5.5in picket, 1 gate, 10% waste): {\n  totalPosts: 15,\n  totalSections: 14,\n  totalPickets: 241,\n  totalRails: 47,\n  totalScrews: 1591,\n  vinylPanels: 0,\n  splitRailLogs: 0,\n  chainLinkMeshRolls: 0,\n  chainLinkTopRail: 0,\n  chainLinkTensionBands: 0,\n  concrete80lbBags: 14,\n  concrete50lbBags: 22,\n  dirtDisplacedCuYards: 0.5,\n  gateHinges: 2,\n  gateLatches: 1\n}\nVinyl (120ft, 8ft O.C., 36in hole, 0 gate, 5% waste): {\n  totalPosts: 16,\n  totalSections: 15,\n  totalPickets: 0,\n  totalRails: 0,\n  totalScrews: 0,\n  vinylPanels: 16,\n  splitRailLogs: 0,\n  chainLinkMeshRolls: 0,\n  chainLinkTopRail: 0,\n  chainLinkTensionBands: 0,\n  concrete80lbBags: 15,\n  concrete50lbBags: 23,\n  dirtDisplacedCuYards: 0.81,\n  gateHinges: 0,\n  gateLatches: 0\n}\nSplit Rail (200ft, 10ft O.C., 48in hole, 3-hole, 2 gate, 10% waste): {\n  totalPosts: 23,\n  totalSections: 22,\n  totalPickets: 0,\n  totalRails: 0,\n  totalScrews: 0,\n  vinylPanels: 0,\n  splitRailLogs: 73,\n  chainLinkMeshRolls: 0,\n  chainLinkTopRail: 0,\n  chainLinkTensionBands: 0,\n  concrete80lbBags: 41,\n  concrete50lbBags: 66,\n  dirtDisplacedCuYards: 1.55,\n  gateHinges: 4,\n  gateLatches: 2\n}\nChain Link (300ft, 10ft O.C., 24in hole, 0 gate, 0% waste): {\n  totalPosts: 31,\n  totalSections: 30,\n  totalPickets: 0,\n  totalRails: 0,\n  totalScrews: 0,\n  vinylPanels: 0,\n  splitRailLogs: 0,\n  chainLinkMeshRolls: 6,\n  chainLinkTopRail: 15,\n  chainLinkTensionBands: 6,\n  concrete80lbBags: 33,\n  concrete50lbBags: 52,\n  dirtDisplacedCuYards: 1.04,\n  gateHinges: 0,\n  gateLatches: 0\n}"
+  },
+  {
+    "calculator": "filldirt",
+    "pass": true,
+    "output": "10x10x12 Trench (20% Compaction): {\n  cuFeet: 120,\n  cuYards: 4.444444444444445,\n  tons: 4.444444444444445,\n  bags40: 223\n}\n15ft diameter Sinkhole 24in deep (30% Compaction): {\n  cuFeet: 459.45792558750725,\n  cuYards: 17.016960206944713,\n  tons: 17.016960206944713,\n  bags40: 851\n}"
+  },
+  {
+    "calculator": "gravel",
+    "pass": true,
+    "output": "10x10x4 Driveway (Crushed Stone, 10% compaction): {\n  cuYards: 1.3580246913580245,\n  tons: 1.9012345679012344,\n  pounds: 3802.469135802469\n}\n20x20x6 Patio Base (Pea Gravel, 0% compaction): {\n  cuYards: 7.407407407407407,\n  tons: 9.62962962962963,\n  pounds: 19259.25925925926\n}\n12ft Firepit (River Rock, 10% compaction): {\n  cuYards: 1.53588974175501,\n  tons: 2.0734511513692633,\n  pounds: 4146.9023027385265\n}"
+  },
+  {
+    "calculator": "loan",
+    "pass": true,
+    "output": "Test Case 1:\n  M_PI: 483.32\n  Total Interest: 3999.20\nTest Case 2:\n  M_PI: 606.64\n  Total Interest: 22796.56\nTest Case 3:\n  M_PI: 927.01\n  Total Interest: 66862.22\nTest Case 4:\n  M_PI: 1419.47\n  Total Interest: 261010.10\nTest Case 5:\n  M_PI: 606.64\n  Total Interest: 14722.40\n  Interest Savings: 8074.16\n  Time Saved: 39 months"
+  },
+  {
+    "calculator": "mortgage",
+    "pass": true,
+    "output": "Test Case 1:\n  Loan: 320000\n  M_PI: 2128.97\n  Total Interest: 446428.47\nTest Case 2:\n  Loan: 225000\n  M_PI: 1898.68\n  Total Interest: 116762.02\nTest Case 3:\n  Loan: 562500\n  M_PI: 3555.38\n  Total Interest: 717437.75\nTest Case 4:\n  Loan: 700000\n  M_PI: 4815.21\n  Total Interest: 455650.68"
+  },
+  {
+    "calculator": "mulch",
+    "pass": true,
+    "output": "10x10x3 Garden Bed (Mulch): { cuFeet: 25, cuYards: 0.9259259259259259, bags2: 13, bags3: 9 }\n5ft diameter Tree Ring 3in deep (Mulch): { cuFeet: 4.908738521234052, cuYards: 0.181805130416076, bags2: 3 }"
+  },
+  {
+    "calculator": "paycheck",
+    "pass": true,
+    "output": "Test Case 1:\n  Gross: $1923.08\n  Fed Tax: $230.77\n  State Tax: $96.15\n  Net: $1596.15\nTest Case 2:\n  Gross: $6250.00\n  Fed Tax: $1375.00\n  State Tax: $375.00\n  Net: $4500.00\nTest Case 3:\n  Gross: $5000.00\n  401k: $250.00\n  Fed Tax: $1140.00\n  State Tax: $332.50\n  Net: $3277.50\nTest Case 4:\n  Gross: $20833.33\n  401k: $2083.33\n  Fed Tax: $6562.50\n  State Tax: $1875.00\n  Net: $10312.50"
+  },
+  {
+    "calculator": "peagravel",
+    "pass": true,
+    "output": "10x10x4 Dog Run (Pea Gravel, 0% compaction): {\n  cuYards: 1.2345679012345678,\n  tons: 1.604938271604938,\n  pounds: 3209.876543209876\n}\n12ft Firepit (Pea Gravel, 0% compaction): {\n  cuYards: 1.3962634015954636,\n  tons: 1.8151424220741026,\n  pounds: 3630.284844148205\n}"
+  },
+  {
+    "calculator": "roofing",
+    "pass": true,
+    "output": "Scenario 1 (50x30, 6/12 pitch, Arch Shingles, 1 Layer Tear-off, Re-deck): {\n  \"baseAreaSqFt\": 1749,\n  \"pitchMultiplier\": 1.118,\n  \"trueSurfaceAreaSqFt\": 1955.44,\n  \"areaWithWasteSqFt\": 2150.99,\n  \"totalSquares\": 21.51,\n  \"shingleBundles\": 65,\n  \"metalPanels\": 0,\n  \"ridgeCapLinearFeet\": 53,\n  \"ridgeCapBundles\": 2,\n  \"starterShingleBundles\": 2,\n  \"underlaymentRolls\": 6,\n  \"iceAndWaterShieldRolls\": 4,\n  \"dripEdgePieces\": 19,\n  \"roofingNailsPounds\": 54,\n  \"osbSheets\": 68,\n  \"ridgeVentLinearFeet\": 24,\n  \"soffitVents\": 7,\n  \"stepFlashingPieces\": 50,\n  \"valleyFlashingFeet\": 40,\n  \"tearOffWeightLbs\": 10295.088289264713,\n  \"recommendedDumpster\": \"30-Yard Dumpster\"\n}\nScenario 2 (40x25, 12/12 pitch, Metal, 2 Layers Tear-off): {\n  \"baseAreaSqFt\": 1134,\n  \"pitchMultiplier\": 1.4142,\n  \"trueSurfaceAreaSqFt\": 1603.72,\n  \"areaWithWasteSqFt\": 1844.28,\n  \"totalSquares\": 18.44,\n  \"shingleBundles\": 0,\n  \"metalPanels\": 73,\n  \"ridgeCapLinearFeet\": 82.5,\n  \"ridgeCapBundles\": 3,\n  \"starterShingleBundles\": 2,\n  \"underlaymentRolls\": 5,\n  \"iceAndWaterShieldRolls\": 3,\n  \"dripEdgePieces\": 16,\n  \"roofingNailsPounds\": 47,\n  \"osbSheets\": 0,\n  \"ridgeVentLinearFeet\": 16,\n  \"soffitVents\": 5,\n  \"stepFlashingPieces\": 150,\n  \"valleyFlashingFeet\": 120,\n  \"tearOffWeightLbs\": 3848.487271892436,\n  \"recommendedDumpster\": \"10-Yard Dumpster\"\n}\nScenario 3 (100x50, 2/12 pitch, 3-Tab, New Construction): {\n  \"baseAreaSqFt\": 5000,\n  \"pitchMultiplier\": 1.0138,\n  \"trueSurfaceAreaSqFt\": 5068.97,\n  \"areaWithWasteSqFt\": 5322.42,\n  \"totalSquares\": 53.22,\n  \"shingleBundles\": 160,\n  \"metalPanels\": 0,\n  \"ridgeCapLinearFeet\": 100,\n  \"ridgeCapBundles\": 4,\n  \"starterShingleBundles\": 4,\n  \"underlaymentRolls\": 14,\n  \"iceAndWaterShieldRolls\": 7,\n  \"dripEdgePieces\": 33,\n  \"roofingNailsPounds\": 134,\n  \"osbSheets\": 0,\n  \"ridgeVentLinearFeet\": 67,\n  \"soffitVents\": 20,\n  \"stepFlashingPieces\": 0,\n  \"valleyFlashingFeet\": 0,\n  \"tearOffWeightLbs\": 0,\n  \"recommendedDumpster\": \"None\"\n}"
+  },
+  {
+    "calculator": "roof_pitch",
+    "pass": true,
+    "output": "Scenario 1 (6/12 pitch, 24ft span, 18in overhang): {\n  \"pitchX\": 6,\n  \"pitchString\": \"6/12\",\n  \"angleDegrees\": 26.57,\n  \"pitchMultiplier\": 1.118,\n  \"slopePercentage\": 50,\n  \"roofCategory\": \"Standard Slope\",\n  \"rafterLengthFt\": 15.09,\n  \"peakHeightFt\": 6,\n  \"plumbCutAngle\": 63.43,\n  \"levelCutAngle\": 26.57,\n  \"eaveDropInches\": 9\n}\nScenario 2 (12/12 pitch, 30ft span, 24in overhang): {\n  \"pitchX\": 12,\n  \"pitchString\": \"12/12\",\n  \"angleDegrees\": 45,\n  \"pitchMultiplier\": 1.4142,\n  \"slopePercentage\": 100,\n  \"roofCategory\": \"Steep Slope\",\n  \"rafterLengthFt\": 24.04,\n  \"peakHeightFt\": 15,\n  \"plumbCutAngle\": 45,\n  \"levelCutAngle\": 45,\n  \"eaveDropInches\": 24\n}\nScenario 3 (4/12 rise-run, 40ft span, 12in overhang): {\n  \"pitchX\": 4,\n  \"pitchString\": \"4/12\",\n  \"angleDegrees\": 18.43,\n  \"pitchMultiplier\": 1.0541,\n  \"slopePercentage\": 33.33,\n  \"roofCategory\": \"Standard Slope\",\n  \"rafterLengthFt\": 22.14,\n  \"peakHeightFt\": 6.67,\n  \"plumbCutAngle\": 71.57,\n  \"levelCutAngle\": 18.43,\n  \"eaveDropInches\": 4\n}"
+  },
+  {
+    "calculator": "salary",
+    "pass": true,
+    "output": "Test Case 1:\n  Hourly: $23.97\n  Daily: $191.78\n  Weekly: $958.90\n  Bi-Weekly: $1917.81\n  Monthly: $4166.67\nTest Case 2:\n  Hourly: $35.96\n  Daily: $287.67\n  Weekly: $1438.36\n  Bi-Weekly: $2876.71\n  Monthly: $6250.00\nTest Case 3:\n  Hourly: $51.14\n  Daily: $460.27\n  Weekly: $2301.37\n  Bi-Weekly: $4602.74\n  Monthly: $10000.00\nTest Case 4:\n  Hourly: $95.89\n  Daily: $958.90\n  Weekly: $4794.52\n  Bi-Weekly: $9589.04\n  Monthly: $20833.33\nTest Case 5:\n  Hourly: $42.42\n  Daily: $339.39\n  Weekly: $1534.25\n  Bi-Weekly: $3068.49\n  Monthly: $6666.67"
+  },
+  {
+    "calculator": "sand",
+    "pass": true,
+    "output": "10x10x4 Sandbox (Sand, 0% compaction): {\n  cuYards: 1.2345679012345678,\n  tons: 1.604938271604938,\n  pounds: 3209.876543209876\n}\n12x12x1 Paver Base (Sand, 10% compaction): {\n  cuYards: 0.48888888888888893,\n  tons: 0.6355555555555557,\n  pounds: 1271.1111111111113\n}"
+  },
+  {
+    "calculator": "slab",
+    "pass": true,
+    "output": "Patio Slab (10x10x4, 0% waste): {\n  cubicYards: 1.2345679012345678,\n  cubicFeet: 33.33333333333333,\n  areaSqFt: 100,\n  bags80lb: 56,\n  trucksRequired: 1\n}\nDriveway Slab (20x20x6, 0% waste): {\n  cubicYards: 7.407407407407407,\n  cubicFeet: 200,\n  areaSqFt: 400,\n  bags80lb: 334,\n  trucksRequired: 1\n}\nGarage Slab (24x24x6, 10% waste): {\n  cubicYards: 11.733333333333334,\n  cubicFeet: 316.8,\n  areaSqFt: 576,\n  bags80lb: 528,\n  trucksRequired: 2\n}\nFoundation Slab (40x30x8, 10% waste): {\n  cubicYards: 32.592592592592595,\n  cubicFeet: 880.0000000000001,\n  areaSqFt: 1200,\n  bags80lb: 1467,\n  trucksRequired: 4\n}"
+  },
+  {
+    "calculator": "topsoil",
+    "pass": true,
+    "output": "10x10x4 Lawn Base (15% Settling): {\n  cuFeet: 38.33333333333332,\n  cuYards: 1.4197530864197527,\n  tons: 1.4197530864197527,\n  bags40: 71\n}\n8ft diameter Planter 6in deep (0% Settling): {\n  cuFeet: 25.132741228718345,\n  cuYards: 0.9308422677303091,\n  tons: 0.9308422677303091,\n  bags40: 47\n}"
+  },
+  {
+    "calculator": "volume",
+    "pass": true,
+    "output": "10x10x4 Slab (0% waste): 1.2345679012345678\n20x20x6 Slab (0% waste): 7.407407407407407\n12-inch Column, 4ft deep (0% waste): 0.11635528346628864\nStairs (4ft wide, 11in run, 7in rise, 10 steps, 0% waste): 0.7921810699588477"
+  }
+]

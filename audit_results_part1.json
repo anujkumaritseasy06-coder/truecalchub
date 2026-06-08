@@ -1,0 +1,1087 @@
+{
+  "routes": [
+    "",
+    "/categories",
+    "/search",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+    "/disclaimer",
+    "/categories/construction",
+    "/categories/finance",
+    "/categories/health",
+    "/categories/home-improvement",
+    "/categories/real-estate",
+    "/categories/salary-tax",
+    "/categories/utility",
+    "/disclaimer",
+    "/privacy-policy",
+    "/terms-of-service",
+    "/construction/brick-calculator",
+    "/construction/drywall-calculator",
+    "/home-improvement/home-addition-cost-calculator",
+    "/utility/inflation-calculator",
+    "/home-improvement/insulation-calculator",
+    "/construction/paint-calculator",
+    "/home-improvement/stair-calculator",
+    "/construction/tile-calculator",
+    "/salary-tax/time-and-half-calculator",
+    "/home-improvement/window-replacement-cost-calculator",
+    "/finance/apr-calculator",
+    "/construction/asphalt-calculator",
+    "/health/bmi-calculator",
+    "/health/bmr-calculator",
+    "/health/body-fat-calculator",
+    "/health/calorie-calculator",
+    "/finance/compound-interest-calculator",
+    "/construction/concrete-bag-calculator",
+    "/construction/concrete-block-calculator",
+    "/construction/concrete-calculator",
+    "/construction/concrete-slab-calculator",
+    "/construction/concrete-volume-calculator",
+    "/construction/crushed-stone-calculator",
+    "/construction/deck-material-calculator",
+    "/construction/fence-calculator",
+    "/construction/fence-cost-calculator",
+    "/construction/fence-post-calculator",
+    "/construction/fill-dirt-calculator",
+    "/construction/gravel-calculator",
+    "/finance/loan-calculator",
+    "/finance/mortgage-calculator",
+    "/construction/mulch-calculator",
+    "/salary-tax/paycheck-calculator",
+    "/construction/pea-gravel-calculator",
+    "/construction/roof-pitch-calculator",
+    "/construction/roof-shingle-calculator",
+    "/construction/roof-slope-calculator",
+    "/construction/roofing-calculator",
+    "/salary-tax/salary-calculator",
+    "/construction/sand-calculator",
+    "/construction/topsoil-calculator"
+  ],
+  "calculators": [
+    {
+      "name": "Brick Calculator: Estimate Walls, Patios & Mortar",
+      "slug": "brick-calculator",
+      "category": "construction",
+      "url": "/construction/brick-calculator"
+    },
+    {
+      "name": "Drywall Calculator & Installation Cost Estimator",
+      "slug": "drywall-calculator",
+      "category": "construction",
+      "url": "/construction/drywall-calculator"
+    },
+    {
+      "name": "Home Addition Cost Calculator: Room Additions & Bump-Outs",
+      "slug": "home-addition-cost-calculator",
+      "category": "home-improvement",
+      "url": "/home-improvement/home-addition-cost-calculator"
+    },
+    {
+      "name": "Inflation Calculator: Measure Real Investment Returns",
+      "slug": "inflation-calculator",
+      "category": "utility",
+      "url": "/utility/inflation-calculator"
+    },
+    {
+      "name": "Insulation Calculator & Cost Estimator",
+      "slug": "insulation-calculator",
+      "category": "home-improvement",
+      "url": "/home-improvement/insulation-calculator"
+    },
+    {
+      "name": "Paint Calculator & Professional Estimation Guide",
+      "slug": "paint-calculator",
+      "category": "construction",
+      "url": "/construction/paint-calculator"
+    },
+    {
+      "name": "Stair Calculator: Rise, Run & Stringer Estimator",
+      "slug": "stair-calculator",
+      "category": "home-improvement",
+      "url": "/home-improvement/stair-calculator"
+    },
+    {
+      "name": "Tile Calculator & Flooring Cost Estimator",
+      "slug": "tile-calculator",
+      "category": "construction",
+      "url": "/construction/tile-calculator"
+    },
+    {
+      "name": "Time and a Half Calculator: Calculate Overtime & Double Time Pay",
+      "slug": "time-and-half-calculator",
+      "category": "salary-tax",
+      "url": "/salary-tax/time-and-half-calculator"
+    },
+    {
+      "name": "Window Replacement Cost Calculator: Full, Glass & Screen Estimates",
+      "slug": "window-replacement-cost-calculator",
+      "category": "home-improvement",
+      "url": "/home-improvement/window-replacement-cost-calculator"
+    },
+    {
+      "name": "APR Calculator",
+      "slug": "apr-calculator",
+      "category": "finance",
+      "url": "/finance/apr-calculator"
+    },
+    {
+      "name": "Asphalt Calculator",
+      "slug": "asphalt-calculator",
+      "category": "construction",
+      "url": "/construction/asphalt-calculator"
+    },
+    {
+      "name": "BMI Calculator",
+      "slug": "bmi-calculator",
+      "category": "health",
+      "url": "/health/bmi-calculator"
+    },
+    {
+      "name": "BMR Calculator",
+      "slug": "bmr-calculator",
+      "category": "health",
+      "url": "/health/bmr-calculator"
+    },
+    {
+      "name": "Body Fat Calculator",
+      "slug": "body-fat-calculator",
+      "category": "health",
+      "url": "/health/body-fat-calculator"
+    },
+    {
+      "name": "Calorie Calculator",
+      "slug": "calorie-calculator",
+      "category": "health",
+      "url": "/health/calorie-calculator"
+    },
+    {
+      "name": "Compound Interest Calculator",
+      "slug": "compound-interest-calculator",
+      "category": "finance",
+      "url": "/finance/compound-interest-calculator"
+    },
+    {
+      "name": "Concrete Bag Calculator",
+      "slug": "concrete-bag-calculator",
+      "category": "construction",
+      "url": "/construction/concrete-bag-calculator"
+    },
+    {
+      "name": "Concrete Block Calculator",
+      "slug": "concrete-block-calculator",
+      "category": "construction",
+      "url": "/construction/concrete-block-calculator"
+    },
+    {
+      "name": "Concrete Calculator",
+      "slug": "concrete-calculator",
+      "category": "construction",
+      "url": "/construction/concrete-calculator"
+    },
+    {
+      "name": "Concrete Slab Calculator",
+      "slug": "concrete-slab-calculator",
+      "category": "construction",
+      "url": "/construction/concrete-slab-calculator"
+    },
+    {
+      "name": "Concrete Volume Calculator",
+      "slug": "concrete-volume-calculator",
+      "category": "construction",
+      "url": "/construction/concrete-volume-calculator"
+    },
+    {
+      "name": "Crushed Stone Calculator",
+      "slug": "crushed-stone-calculator",
+      "category": "construction",
+      "url": "/construction/crushed-stone-calculator"
+    },
+    {
+      "name": "Deck Material Calculator",
+      "slug": "deck-material-calculator",
+      "category": "construction",
+      "url": "/construction/deck-material-calculator"
+    },
+    {
+      "name": "Fence Material Calculator & Cost Estimator",
+      "slug": "fence-calculator",
+      "category": "construction",
+      "url": "/construction/fence-calculator"
+    },
+    {
+      "name": "Fence Cost Calculator",
+      "slug": "fence-cost-calculator",
+      "category": "construction",
+      "url": "/construction/fence-cost-calculator"
+    },
+    {
+      "name": "Fence Post Calculator",
+      "slug": "fence-post-calculator",
+      "category": "construction",
+      "url": "/construction/fence-post-calculator"
+    },
+    {
+      "name": "Fill Dirt Calculator",
+      "slug": "fill-dirt-calculator",
+      "category": "construction",
+      "url": "/construction/fill-dirt-calculator"
+    },
+    {
+      "name": "Gravel Calculator",
+      "slug": "gravel-calculator",
+      "category": "construction",
+      "url": "/construction/gravel-calculator"
+    },
+    {
+      "name": "Loan Calculator",
+      "slug": "loan-calculator",
+      "category": "finance",
+      "url": "/finance/loan-calculator"
+    },
+    {
+      "name": "Mortgage Calculator",
+      "slug": "mortgage-calculator",
+      "category": "finance",
+      "url": "/finance/mortgage-calculator"
+    },
+    {
+      "name": "Mulch Calculator",
+      "slug": "mulch-calculator",
+      "category": "construction",
+      "url": "/construction/mulch-calculator"
+    },
+    {
+      "name": "Paycheck Calculator",
+      "slug": "paycheck-calculator",
+      "category": "salary-tax",
+      "url": "/salary-tax/paycheck-calculator"
+    },
+    {
+      "name": "Pea Gravel Calculator",
+      "slug": "pea-gravel-calculator",
+      "category": "construction",
+      "url": "/construction/pea-gravel-calculator"
+    },
+    {
+      "name": "Roof Pitch Calculator & Structural Framing Geometry",
+      "slug": "roof-pitch-calculator",
+      "category": "construction",
+      "url": "/construction/roof-pitch-calculator"
+    },
+    {
+      "name": "Roof Shingle Calculator: Exact Bundles per Square",
+      "slug": "roof-shingle-calculator",
+      "category": "construction",
+      "url": "/construction/roof-shingle-calculator"
+    },
+    {
+      "name": "Roof Slope Calculator",
+      "slug": "roof-slope-calculator",
+      "category": "construction",
+      "url": "/construction/roof-slope-calculator"
+    },
+    {
+      "name": "Roofing Calculator & Logistics Project Manager",
+      "slug": "roofing-calculator",
+      "category": "construction",
+      "url": "/construction/roofing-calculator"
+    },
+    {
+      "name": "Salary Calculator",
+      "slug": "salary-calculator",
+      "category": "salary-tax",
+      "url": "/salary-tax/salary-calculator"
+    },
+    {
+      "name": "Sand Calculator",
+      "slug": "sand-calculator",
+      "category": "construction",
+      "url": "/construction/sand-calculator"
+    },
+    {
+      "name": "Topsoil Calculator",
+      "slug": "topsoil-calculator",
+      "category": "construction",
+      "url": "/construction/topsoil-calculator"
+    }
+  ],
+  "seo": [
+    {
+      "slug": "brick-calculator",
+      "title": "Brick Calculator: Estimate Walls, Patios & Mortar",
+      "titleLength": 49,
+      "description": "Calculate exactly how many bricks and bags of mortar you need for your masonry project. Use our advanced brick wall calculator and brick paver calculator.",
+      "descLength": 154,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "drywall-calculator",
+      "title": "Drywall Calculator & Installation Cost Estimator",
+      "titleLength": 48,
+      "description": "The ultimate commercial drywall calculator and material estimator for contractors. Accurately calculate drywall sheets, joint compound, tape, screws, and total project costs.",
+      "descLength": 174,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "home-addition-cost-calculator",
+      "title": "Home Addition Cost Calculator: Room Additions & Bump-Outs",
+      "titleLength": 57,
+      "description": "Use our advanced home addition cost estimator calculator to budget for your next remodel. Calculate the exact cost of a master suite, second story, or kitchen bump-out.",
+      "descLength": 168,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "inflation-calculator",
+      "title": "Inflation Calculator: Measure Real Investment Returns",
+      "titleLength": 53,
+      "description": "Calculate historical inflation rates for the US and UK. Use our advanced investment calculator with inflation to determine your true Real Rate of Return.",
+      "descLength": 153,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "insulation-calculator",
+      "title": "Insulation Calculator & Cost Estimator",
+      "titleLength": 38,
+      "description": "Calculate exactly how much insulation you need for your attic, walls, or crawlspace. Compare costs for spray foam, fiberglass batts, and blown-in cellulose instantly.",
+      "descLength": 166,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "paint-calculator",
+      "title": "Paint Calculator & Professional Estimation Guide",
+      "titleLength": 48,
+      "description": "The ultimate paint calculator for residential and commercial projects. Calculate exact paint gallons, primer, tape, and total painting labor costs instantly.",
+      "descLength": 157,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "stair-calculator",
+      "title": "Stair Calculator: Rise, Run & Stringer Estimator",
+      "titleLength": 48,
+      "description": "The ultimate stair calculator for framing carpenters and DIYers. Estimate exact stair rise and run, stringer length, and lumber requirements instantly.",
+      "descLength": 151,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "tile-calculator",
+      "title": "Tile Calculator & Flooring Cost Estimator",
+      "titleLength": 41,
+      "description": "The ultimate tile calculator for contractors and DIYers. Estimate exact tile quantities, grout, thinset mortar, backerboard, and total installation costs.",
+      "descLength": 154,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "time-and-half-calculator",
+      "title": "Time and a Half Calculator: Calculate Overtime & Double Time Pay",
+      "titleLength": 64,
+      "description": "Use our accurate time and a half calculator to estimate your overtime wages. Learn exactly how to calculate time and a half pay for hourly and salaried employees.",
+      "descLength": 162,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "window-replacement-cost-calculator",
+      "title": "Window Replacement Cost Calculator: Full, Glass & Screen Estimates",
+      "titleLength": 66,
+      "description": "Calculate the exact cost of replacing your home's windows. Our window replacement cost calculator generates accurate financial estimates for full frames, custom glass, and screens.",
+      "descLength": 180,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "apr-calculator",
+      "title": "APR Calculator",
+      "titleLength": 14,
+      "description": "Calculate the true Annual Percentage Rate (APR) of your loan. Discover your effective borrowing cost by factoring in origination fees, closing costs, and other finance charges.",
+      "descLength": 176,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "asphalt-calculator",
+      "title": "Asphalt Calculator",
+      "titleLength": 18,
+      "description": "Calculate exactly how many tons of hot mix asphalt you need to pave a driveway or parking lot, including tack coat emulsion and labor cost estimations.",
+      "descLength": 151,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "bmi-calculator",
+      "title": "BMI Calculator",
+      "titleLength": 14,
+      "description": "Calculate your Body Mass Index (BMI). Determine your BMI category, discover your ideal healthy weight range, and find out exactly how many pounds you need to gain or lose to reach your goal.",
+      "descLength": 190,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "bmr-calculator",
+      "title": "BMR Calculator",
+      "titleLength": 14,
+      "description": "Calculate your Basal Metabolic Rate (BMR) instantly. Discover exactly how many calories your body burns at rest to optimize your weight loss or muscle gain goals.",
+      "descLength": 162,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "body-fat-calculator",
+      "title": "Body Fat Calculator",
+      "titleLength": 19,
+      "description": "Calculate your body fat percentage using the U.S. Navy Method. Discover your exact lean body mass, fat mass, and how you compare to the American Council on Exercise (ACE) fitness categories.",
+      "descLength": 190,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "calorie-calculator",
+      "title": "Calorie Calculator",
+      "titleLength": 18,
+      "description": "Calculate your daily calorie needs for weight loss, maintenance, or muscle gain. Instantly find your Total Daily Energy Expenditure (TDEE) based on your activity level.",
+      "descLength": 168,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "compound-interest-calculator",
+      "title": "Compound Interest Calculator",
+      "titleLength": 28,
+      "description": "Calculate how much your investments will grow over time with our free, accurate compound interest calculator. Supports daily, monthly, and annual compounding.",
+      "descLength": 158,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "concrete-bag-calculator",
+      "title": "Concrete Bag Calculator",
+      "titleLength": 23,
+      "description": "Calculate exactly how many 40lb, 50lb, 60lb, or 80lb bags of concrete you need for any slab, footing, or column project. Includes bag weight matrices and waste factors.",
+      "descLength": 168,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "concrete-block-calculator",
+      "title": "Concrete Block Calculator",
+      "titleLength": 25,
+      "description": "Calculate CMU blocks, mortar bags, and pallets needed for any wall project. Includes standard 8x8x16 block presets, mortar joints, and waste tracking.",
+      "descLength": 150,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "concrete-calculator",
+      "title": "Concrete Calculator",
+      "titleLength": 19,
+      "description": "Calculate concrete volume, bags, and ready-mix yardage for slabs, footings, columns, and stairs. Includes cost estimation and waste factors.",
+      "descLength": 140,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "concrete-slab-calculator",
+      "title": "Concrete Slab Calculator",
+      "titleLength": 24,
+      "description": "Calculate concrete volume, bags, and truck deliveries for patio slabs, driveways, and foundations. Includes thickness presets and waste factors.",
+      "descLength": 144,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "concrete-volume-calculator",
+      "title": "Concrete Volume Calculator",
+      "titleLength": 26,
+      "description": "Mathematically compute exact concrete volume requirements in cubic yards, cubic feet, and cubic meters for any structural shape including slabs, columns, walls, and stairs.",
+      "descLength": 172,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "crushed-stone-calculator",
+      "title": "Crushed Stone Calculator",
+      "titleLength": 24,
+      "description": "Calculate exactly how many tons and cubic yards of crushed stone you need for driveways, patio bases, and retaining walls.",
+      "descLength": 122,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "deck-material-calculator",
+      "title": "Deck Material Calculator",
+      "titleLength": 24,
+      "description": "Calculate exactly how many decking boards, structural joists, and screws you need to build your dream deck.",
+      "descLength": 107,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "fence-calculator",
+      "title": "Fence Material Calculator & Cost Estimator",
+      "titleLength": 42,
+      "description": "Calculate exactly how many posts, pickets, vinyl panels, rails, and concrete bags you need to build your fence. Includes wood, vinyl, and chain link.",
+      "descLength": 149,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "fence-cost-calculator",
+      "title": "Fence Cost Calculator",
+      "titleLength": 21,
+      "description": "Estimate the total cost to build a fence, including material price ranges and professional labor installation fees based on terrain.",
+      "descLength": 132,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "fence-post-calculator",
+      "title": "Fence Post Calculator",
+      "titleLength": 21,
+      "description": "Calculate exactly how many fence posts and bags of concrete you need based on your hole depth and frost line.",
+      "descLength": 109,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "fill-dirt-calculator",
+      "title": "Fill Dirt Calculator",
+      "titleLength": 20,
+      "description": "Calculate exactly how many cubic yards or tons of fill dirt you need for massive grading projects, foundation trenches, and sinkhole repairs.",
+      "descLength": 141,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "gravel-calculator",
+      "title": "Gravel Calculator",
+      "titleLength": 17,
+      "description": "Calculate exactly how many tons of gravel, crushed stone, or sand you need for your driveway or patio project. Converts geometric volume directly into payload weight.",
+      "descLength": 166,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "loan-calculator",
+      "title": "Loan Calculator",
+      "titleLength": 15,
+      "description": "Calculate your monthly loan payments, total interest, and find out exactly how much time and money you can save by making extra monthly payments.",
+      "descLength": 145,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "mortgage-calculator",
+      "title": "Mortgage Calculator",
+      "titleLength": 19,
+      "description": "Calculate your monthly mortgage payments accurately. Estimate your principal and interest, property taxes, home insurance, and HOA fees to find out how much house you can afford.",
+      "descLength": 178,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "mulch-calculator",
+      "title": "Mulch Calculator",
+      "titleLength": 16,
+      "description": "Calculate exactly how many cubic yards or retail bags of mulch you need for garden beds, tree rings, and playgrounds.",
+      "descLength": 117,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "paycheck-calculator",
+      "title": "Paycheck Calculator",
+      "titleLength": 19,
+      "description": "Calculate your net take-home pay. Instantly convert your gross salary into a true net paycheck by factoring in federal taxes, state taxes, 401(k) contributions, and deductions.",
+      "descLength": 176,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "pea-gravel-calculator",
+      "title": "Pea Gravel Calculator",
+      "titleLength": 21,
+      "description": "Calculate exactly how many tons or retail bags of pea gravel you need for your dog run, playground, garden bed, or decorative fire pit.",
+      "descLength": 135,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "roof-pitch-calculator",
+      "title": "Roof Pitch Calculator & Structural Framing Geometry",
+      "titleLength": 51,
+      "description": "The ultimate roof pitch calculator for professionals. Calculate rafter lengths, plumb cuts, level cuts, peak heights, and convert pitch to degrees.",
+      "descLength": 147,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "roof-shingle-calculator",
+      "title": "Roof Shingle Calculator: Exact Bundles per Square",
+      "titleLength": 49,
+      "description": "Calculate exactly how many bundles of shingles you need for your roof. Instantly determine your roofing squares, starter shingles, ridge caps, and roofing nails with our industry-leading roof shingle calculator.",
+      "descLength": 211,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "roof-slope-calculator",
+      "title": "Roof Slope Calculator",
+      "titleLength": 21,
+      "description": "Calculate your exact roof slope percentage, angle in degrees, and rise-to-run ratio. Understand how to convert between slope and standard roof pitch for construction and roofing estimates.",
+      "descLength": 188,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "roofing-calculator",
+      "title": "Roofing Calculator & Logistics Project Manager",
+      "titleLength": 46,
+      "description": "The ultimate roofing material estimator. Calculate shingle squares, OSB re-decking, the 1:300 ventilation rule, and tear-off dumpster weights.",
+      "descLength": 142,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "salary-calculator",
+      "title": "Salary Calculator",
+      "titleLength": 17,
+      "description": "Convert your annual salary to hourly wage, daily, weekly, bi-weekly, and monthly pay. Discover exactly how much your time is worth.",
+      "descLength": 131,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "sand-calculator",
+      "title": "Sand Calculator",
+      "titleLength": 15,
+      "description": "Calculate exactly how many tons or retail bags of sand you need for sandboxes, paver bases, masonry mixing, or beach volleyball courts.",
+      "descLength": 135,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "topsoil-calculator",
+      "title": "Topsoil Calculator",
+      "titleLength": 18,
+      "description": "Calculate exactly how many cubic yards or tons of topsoil you need for seeding new lawns, grading foundations, and building raised garden beds.",
+      "descLength": 143,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "construction",
+      "title": "Construction",
+      "titleLength": 12,
+      "description": "Professional-grade calculators for roofing, concrete, framing, and contracting.",
+      "descLength": 79,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "finance",
+      "title": "Finance",
+      "titleLength": 7,
+      "description": "Professional financial calculators for investments, loans, retirement, and savings planning.",
+      "descLength": 92,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "health",
+      "title": "Health",
+      "titleLength": 6,
+      "description": "BMI, daily calorie needs, macronutrient calculators, and general wellness tools.",
+      "descLength": 80,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "home-improvement",
+      "title": "Home Improvement",
+      "titleLength": 16,
+      "description": "Calculate materials, costs, and measurements for your DIY and renovation projects.",
+      "descLength": 82,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "real-estate",
+      "title": "Real Estate",
+      "titleLength": 11,
+      "description": "Mortgage calculators, affordability estimators, and property investment analysis tools.",
+      "descLength": 87,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "salary-tax",
+      "title": "Salary & Tax",
+      "titleLength": 12,
+      "description": "Accurate paycheck calculators, income tax estimators, and salary comparison tools.",
+      "descLength": 82,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "utility",
+      "title": "Utility",
+      "titleLength": 7,
+      "description": "Everyday conversion tools, date calculators, and general mathematical utilities.",
+      "descLength": 80,
+      "hasH1": false,
+      "hasCanonical": false
+    },
+    {
+      "slug": "disclaimer",
+      "title": "Disclaimer | TrueCalcHub",
+      "titleLength": 24,
+      "description": "Important legal disclaimers regarding the use of calculators on TrueCalcHub.",
+      "descLength": 76,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy | TrueCalcHub",
+      "titleLength": 28,
+      "description": "Learn how TrueCalcHub collects, uses, and protects your information when you use our online calculators.",
+      "descLength": 104,
+      "hasH1": true,
+      "hasCanonical": false
+    },
+    {
+      "slug": "terms-of-service",
+      "title": "Terms of Service | TrueCalcHub",
+      "titleLength": 30,
+      "description": "Terms and conditions for using TrueCalcHub's online calculators and services.",
+      "descLength": 77,
+      "hasH1": true,
+      "hasCanonical": false
+    }
+  ],
+  "content": [
+    {
+      "slug": "brick-calculator",
+      "wordCount": 1336,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "drywall-calculator",
+      "wordCount": 2046,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "home-addition-cost-calculator",
+      "wordCount": 1270,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "inflation-calculator",
+      "wordCount": 984,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "insulation-calculator",
+      "wordCount": 1574,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "paint-calculator",
+      "wordCount": 1882,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "stair-calculator",
+      "wordCount": 1384,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "tile-calculator",
+      "wordCount": 1733,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "time-and-half-calculator",
+      "wordCount": 1127,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "window-replacement-cost-calculator",
+      "wordCount": 1342,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "apr-calculator",
+      "wordCount": 922,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "asphalt-calculator",
+      "wordCount": 862,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "bmi-calculator",
+      "wordCount": 906,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "bmr-calculator",
+      "wordCount": 774,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "body-fat-calculator",
+      "wordCount": 829,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "calorie-calculator",
+      "wordCount": 846,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "compound-interest-calculator",
+      "wordCount": 956,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "concrete-bag-calculator",
+      "wordCount": 970,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "concrete-block-calculator",
+      "wordCount": 1138,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "concrete-calculator",
+      "wordCount": 1207,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "concrete-slab-calculator",
+      "wordCount": 1117,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "concrete-volume-calculator",
+      "wordCount": 982,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "crushed-stone-calculator",
+      "wordCount": 712,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "deck-material-calculator",
+      "wordCount": 614,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "fence-calculator",
+      "wordCount": 1169,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "fence-cost-calculator",
+      "wordCount": 443,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "fence-post-calculator",
+      "wordCount": 335,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "fill-dirt-calculator",
+      "wordCount": 876,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "gravel-calculator",
+      "wordCount": 1002,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "loan-calculator",
+      "wordCount": 828,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "mortgage-calculator",
+      "wordCount": 881,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "mulch-calculator",
+      "wordCount": 825,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "paycheck-calculator",
+      "wordCount": 781,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "pea-gravel-calculator",
+      "wordCount": 827,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "roof-pitch-calculator",
+      "wordCount": 979,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "roof-shingle-calculator",
+      "wordCount": 2750,
+      "hasFaqs": true,
+      "hasFormulas": true
+    },
+    {
+      "slug": "roof-slope-calculator",
+      "wordCount": 542,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "roofing-calculator",
+      "wordCount": 1148,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "salary-calculator",
+      "wordCount": 926,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "sand-calculator",
+      "wordCount": 723,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "topsoil-calculator",
+      "wordCount": 771,
+      "hasFaqs": true,
+      "hasFormulas": false
+    },
+    {
+      "slug": "construction",
+      "wordCount": 26,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "finance",
+      "wordCount": 35,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "health",
+      "wordCount": 26,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "home-improvement",
+      "wordCount": 28,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "real-estate",
+      "wordCount": 32,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "salary-tax",
+      "wordCount": 27,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "utility",
+      "wordCount": 24,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "disclaimer",
+      "wordCount": 600,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "privacy-policy",
+      "wordCount": 598,
+      "hasFaqs": false,
+      "hasFormulas": false
+    },
+    {
+      "slug": "terms-of-service",
+      "wordCount": 454,
+      "hasFaqs": false,
+      "hasFormulas": false
+    }
+  ],
+  "adsense": [
+    {
+      "missingPages": [],
+      "ready": true
+    }
+  ],
+  "security": []
+}
