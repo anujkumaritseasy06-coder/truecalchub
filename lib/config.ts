@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "TrueCalcHub",
   description: "Accurate Online Calculators for Everyday Decisions",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://truecalchub.com",
-  ogImage: "https://truecalchub.com/logo.png",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.truecalchub.com",
+  ogImage: "https://www.truecalchub.com/logo.png",
   links: {
     twitter: "https://twitter.com/truecalchub",
   },

@@ -11,6 +11,6 @@ export function formatDate(date: string) {
 }
 
 export function absoluteUrl(path: string) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://truecalchub.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.truecalchub.com";
   return `${baseUrl}${path}`;
 }

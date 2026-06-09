@@ -3,7 +3,7 @@ import { absoluteUrl } from '@/lib/utils';
 import { getAllDocumentSlugs, getDocumentModificationDate, getAllDocuments } from '@/lib/mdx';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ['', '/categories', '/search', '/about', '/contact'].map((route) => ({
+  const routes = ['', '/categories', '/about', '/contact'].map((route) => ({
     url: absoluteUrl(route),
     lastModified: new Date().toISOString().split('T')[0],
     changeFrequency: 'daily' as const,
@@ -31,8 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Fetch calculators to get their category for the URL /[category]/[slug]
   const calculators = getAllDocuments('calculators').map((doc) => {
     const category = doc.frontmatter.category ? doc.frontmatter.category.toLowerCase() : 'calc';
+    const urlPath = doc.frontmatter.canonicalUrl || `/${category}/${doc.slug}`;
     return {
-      url: absoluteUrl(`/${category}/${doc.slug}`),
+      url: absoluteUrl(urlPath),
       lastModified: getDocumentModificationDate('calculators', doc.slug),
       changeFrequency: 'monthly' as const,
       priority: 0.9, // Calculators are the main product
