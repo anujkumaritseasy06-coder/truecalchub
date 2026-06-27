@@ -9,6 +9,9 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
+// Google AdSense Publisher ID
+const ADSENSE_ID = "ca-pub-4479715392417908";
+
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -38,8 +41,16 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.clarity.ms" />
+
+        {/* Google AdSense — Site Verification & Auto Ads */}
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${inter.variable} font-sans min-h-screen flex flex-col bg-background text-foreground`}>
         {/* Google Analytics — lazyOnload to avoid render blocking (improves Core Web Vitals) */}
