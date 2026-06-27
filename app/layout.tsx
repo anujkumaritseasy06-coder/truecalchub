@@ -10,7 +10,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 // Google AdSense Publisher ID
-const ADSENSE_ID = "ca-pub-4479715392417908";
+const ADSENSE_ID = "ca-pub-4479715392417906";
 
 export const metadata: Metadata = {
   title: {
