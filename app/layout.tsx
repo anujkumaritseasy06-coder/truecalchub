@@ -45,12 +45,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.clarity.ms" />
 
         {/* Google AdSense — Site Verification & Auto Ads */}
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`} crossOrigin="anonymous"></script>
       </head>
       <body className={`${inter.variable} font-sans min-h-screen flex flex-col bg-background text-foreground`}>
         {/* Google Analytics — lazyOnload to avoid render blocking (improves Core Web Vitals) */}
