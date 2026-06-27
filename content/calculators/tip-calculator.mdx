@@ -1,0 +1,127 @@
+---
+title: "Tip Calculator"
+description: "Free tip calculator for restaurants and services. Quickly calculate tip amount, split the bill between multiple people, and find out the total per person. Fast and easy to use."
+category: "utility"
+published: true
+date: "2026-06-27"
+keywords: ["tip calculator", "restaurant tip calculator", "how much to tip", "bill splitter", "gratuity calculator", "split bill calculator"]
+faqs:
+  - question: "How much should I tip at a restaurant?"
+    answer: "Standard US restaurant tipping guidelines: Fine dining (upscale): 20-25%. Casual dining: 15-20%. Fast casual (table service): 10-15%. Buffet: 5-10% (or nothing if fully self-service). Coffee shops & counter service: Optional $1 or 10-15%. Bar service: $1-2 per drink or 15-20% of tab. When in doubt, 20% is the standard gratuity and makes the math easy."
+  - question: "How do I calculate a 20% tip quickly?"
+    answer: "To quickly calculate a 20% tip: Move the decimal one place left to find 10%. Then double that number for 20%. Example: Bill = $47.50. 10% = $4.75. 20% = $4.75 × 2 = $9.50. For 15%, take 10% and add half: $4.75 + $2.375 = $7.13 tip. You can also just multiply the bill by 0.20."
+  - question: "Should I tip on the pre-tax or post-tax amount?"
+    answer: "Tipping etiquette varies: Most etiquette experts say tip on the pre-tax amount. In practice, most Americans tip on the post-tax total shown on the bill. The difference is small — on a $50 meal with 8% tax ($4 tax), tipping 20% on pre-tax = $10, tipping on post-tax = $10.80. Either is acceptable. The pre-tax method is technically 'correct' but the difference rarely matters."
+  - question: "What is the tipping etiquette for delivery drivers?"
+    answer: "For food delivery services (DoorDash, Uber Eats, Grubhub): 15-20% of the order total is recommended. Minimum of $3-5 for small orders. For good weather and short distance, 15% is fine. For bad weather, long distance, or large orders, 20%+ shows appreciation. Note: Delivery fees paid to the app often don't go to the driver — the tip is separate."
+  - question: "How do I split a restaurant bill with tip evenly?"
+    answer: "To split a bill evenly: 1) Add up the full bill. 2) Calculate the tip (e.g., 20%). 3) Add tip to the bill for the total. 4) Divide the total by the number of people. Example: Bill $120 + 20% tip ($24) = $144 total ÷ 4 people = $36 per person. Our bill splitter calculator does this automatically, including for unequal splits."
+  - question: "Do I tip on alcohol at a restaurant?"
+    answer: "Yes. Standard practice is to tip on the full bill including alcohol. Some people tip separately on alcohol (bartenders often receive $1-2 per drink as a minimum). If you ordered a $200 bottle of wine, tipping 20% on that alone would be $40. It's acceptable to tip 15% on high-value wine or discuss this with the server."
+  - question: "What is a standard tip for hotel services?"
+    answer: "Hotel tipping guide: Bellhop/Luggage: $1-2 per bag. Housekeeping: $2-5 per night (leave daily since staff rotates). Concierge: $5-20 for restaurant reservations or special services. Room service: 15-20% if not already included (check the bill for a service charge). Valet parking: $2-5 when retrieving your car."
+  - question: "Is it rude not to tip in the US?"
+    answer: "In the US, tipping is an expected social norm rather than optional in most service settings. Restaurant servers in most states earn a federal tipped minimum wage of $2.13/hour, relying on tips to earn a living wage. Not tipping is considered rude and harms the worker financially. If service is genuinely poor, 10% acknowledges the issue while still treating the server fairly. Refusing to tip should be reserved for truly egregious service failures."
+  - question: "How much do you tip a hairdresser or barber?"
+    answer: "Hair salon tipping: Hairdresser/Stylist: 15-25% of the service cost. Barber: $2-5 for a basic haircut, or 15-20% for higher-end shops. Shampoo assistant: $2-5 (separate from stylist tip). Colorist: 15-20%. For an expensive color treatment at $200, 20% = $40 tip is standard. Many people tip on the value of the service, not the experience."
+  - question: "Should you tip on a to-go or takeout order?"
+    answer: "Tipping on takeout orders is optional but increasingly encouraged as restaurant industry wages remain low. Recommended: 10% for pickup orders (someone prepared your food). Skip or minimal for counter service where you simply receive a pre-made item. Definitely tip 15-20% on curbside pickup where someone brings the food to your car. For large takeout orders, a flat $5-10 is appropriate."
+---
+
+## What Is a Tip and Why Do Americans Tip So Much?
+
+**Tipping** — the practice of giving an extra voluntary payment to service workers — is deeply embedded in American culture to a degree found in few other countries. In the US, tips are not truly "optional" in most dining situations; they are an expected component of service workers' total compensation.
+
+The American tipping system exists because most states allow restaurants to pay tipped workers a **sub-minimum wage** (as low as $2.13/hour federally), with the expectation that tips will bring their total earnings to or above the regular minimum wage. This system effectively means diners share payroll costs with the restaurant.
+
+## Tip Percentage Quick Reference Guide
+
+| Service Type | Standard Tip | Notes |
+|-------------|-------------|-------|
+| Fine dining restaurant | 20-25% | Exceptional service expected |
+| Casual dining | 15-20% | Standard table service |
+| Breakfast/brunch restaurant | 15-20% | Same as lunch/dinner |
+| Bar (drinks only) | $1-2 per drink or 15-20% | Bartender provides table service |
+| Coffee shop (counter) | Optional, $0.50-$1 | Tip jar — not required |
+| Food delivery | 15-20%, min $3-5 | Driver pays for gas/car wear |
+| Pizza delivery | 15-20%, min $3-5 | More for long distances |
+| Hair stylist | 15-25% | Higher for complex services |
+| Barber | 15-20% | $2-5 minimum for budget cuts |
+| Nail salon | 15-20% | $3-5 minimum |
+| Spa/massage | 15-20% | Some include gratuity automatically |
+| Taxi/Rideshare | 15-20% | Often prompted in app |
+| Hotel housekeeping | $2-5/night | Leave daily, not just at checkout |
+| Hotel bellhop | $1-2 per bag | — |
+| Valet parking | $2-5 at retrieval | — |
+| Tour guide | $5-20 per person | Based on tour length |
+| Movers | $20-50 per mover | For full-day moves |
+
+## How to Calculate Tip: Three Easy Methods
+
+### Method 1: The Decimal Method (Most Accurate)
+Multiply the bill by the decimal equivalent of the tip percentage.
+- 15% tip: Bill × 0.15
+- 18% tip: Bill × 0.18
+- 20% tip: Bill × 0.20
+- 25% tip: Bill × 0.25
+
+**Example:** $63.40 bill with 18% tip = $63.40 × 0.18 = **$11.41**
+
+### Method 2: The 10% Method (Quickest Mental Math)
+1. Move the decimal one place left to find 10%
+2. Adjust from there
+
+**Example:** $47 bill
+- 10% = $4.70
+- 20% = $4.70 × 2 = **$9.40**
+- 15% = $4.70 + ($4.70 ÷ 2) = $4.70 + $2.35 = **$7.05**
+
+### Method 3: Use the Total Method
+Calculate tip on the pre-tax or post-tax bill, then add together.
+
+**Example:** $58 pre-tax bill + $4.64 tax = $62.64 total
+- Tip on pre-tax: $58 × 0.20 = $11.60
+- Tip on post-tax: $62.64 × 0.20 = $12.53
+- Difference: Only $0.93 — both are acceptable
+
+## Splitting the Bill: Fair Ways to Divide Among Friends
+
+### Even Split (Simplest)
+Total with tip ÷ Number of people = Amount per person
+
+**Example:** $180 bill + $36 tip (20%) = $216 total ÷ 6 people = **$36 per person**
+
+### Proportional Split (Each Pays for What They Ordered)
+Each person pays for their ordered items, plus a proportional share of tax and tip.
+
+**Example:**
+- Alice ordered $25 worth, total bill $100
+- Alice's share: 25% of the total with tip
+- If total with tip = $120: Alice pays 25% × $120 = **$30**
+
+### Venmo/Payment App Tip
+If one person pays the full bill, calculate each person's share and have them Venmo the correct amount. Many people forget to include their share of the tip in Venmo transfers — make sure to calculate it upfront.
+
+## International Tipping Customs
+
+US tipping culture is unusual globally. To avoid awkward situations when traveling:
+
+| Country | Tipping Custom |
+|---------|---------------|
+| USA | Expected 15-25% at restaurants |
+| Canada | Similar to USA, 15-20% |
+| UK | 10-15%, often optional |
+| Japan | Tipping is considered rude/insulting |
+| Australia | Rare, 10% for excellent service only |
+| France | Rounding up or leaving coins is typical |
+| Germany | Round up to nearest euro or 5-10% |
+| Mexico | 10-15% standard |
+
+## Understanding "Automatic Gratuity"
+
+Many restaurants automatically add an **18-20% gratuity** for large parties (typically 6+ people). Always check your bill for a "service charge" or "gratuity" line. If it's already included:
+- You do NOT need to tip additionally
+- Leaving an extra tip on top is purely voluntary
+- You can legally refuse the automatic gratuity in most states (though it may cause conflict)
+
+For help budgeting your dining expenses, see our [Salary Calculator](/salary-tax/salary-calculator) or [Paycheck Calculator](/salary-tax/paycheck-calculator) to understand your monthly take-home pay.

@@ -5,17 +5,25 @@ import { absoluteUrl } from "./utils";
 interface SEOProps {
   title?: string;
   description?: string;
+  keywords?: string[];
   image?: string;
   url?: string;
   noindex?: boolean;
+  publishedAt?: string;
+  modifiedAt?: string;
+  type?: "website" | "article";
 }
 
 export function constructMetadata({
   title,
   description,
+  keywords,
   image,
   url,
   noindex = false,
+  publishedAt,
+  modifiedAt,
+  type = "website",
 }: SEOProps = {}): Metadata {
   const mergedTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.name;
   const mergedDescription = description || siteConfig.description;
@@ -25,14 +33,22 @@ export function constructMetadata({
   return {
     title: mergedTitle,
     description: mergedDescription,
+    keywords: keywords,
     alternates: {
       canonical: canonicalUrl,
+    },
+    verification: {
+      // Bing Webmaster Tools verification (already verified per user)
+      other: {
+        'msvalidate.01': 'BING_VERIFICATION_TOKEN_PLACEHOLDER',
+      },
     },
     openGraph: {
       title: mergedTitle,
       description: mergedDescription,
       url: canonicalUrl,
       siteName: siteConfig.name,
+      locale: "en_US",
       images: [
         {
           url: ogImage,
@@ -41,14 +57,19 @@ export function constructMetadata({
           alt: mergedTitle,
         },
       ],
-      type: "website",
+      type: type === "article" ? "article" : "website",
+      ...(type === "article" && publishedAt && {
+        publishedTime: publishedAt,
+        modifiedTime: modifiedAt || publishedAt,
+      }),
     },
     twitter: {
       card: "summary_large_image",
       title: mergedTitle,
       description: mergedDescription,
       images: [ogImage],
-      creator: siteConfig.links.twitter,
+      site: "@truecalchub",
+      creator: "@truecalchub",
     },
     robots: {
       index: !noindex,
@@ -63,3 +84,4 @@ export function constructMetadata({
     },
   };
 }
+

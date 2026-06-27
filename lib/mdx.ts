@@ -21,7 +21,7 @@ export interface MDXDocument<T = BaseFrontmatter> {
   content: string;
 }
 
-export type ContentType = "legal" | "categories" | "calculators";
+export type ContentType = "legal" | "categories" | "calculators" | "blog";
 
 function getMDXFiles(dir: string): string[] {
   try {

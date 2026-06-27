@@ -296,6 +296,49 @@ export const CALCULATOR_REGISTRY: Record<string, CalculatorConfig> = {
       ssr: true,
     }),
   },
+  // ===== NEW HIGH-VOLUME CALCULATORS =====
+  'percentage-calculator': {
+    id: 'percentage-calculator',
+    component: dynamic(() => import('./utility/PercentageCalculator').then(mod => mod.PercentageCalculator), {
+      loading: () => <div className="p-12 text-center text-secondary-500 animate-pulse bg-card rounded-xl border border-border">Loading calculator interface...</div>,
+      ssr: true,
+    }),
+  },
+  'age-calculator': {
+    id: 'age-calculator',
+    component: dynamic(() => import('./utility/AgeCalculator').then(mod => mod.AgeCalculator), {
+      loading: () => <div className="p-12 text-center text-secondary-500 animate-pulse bg-card rounded-xl border border-border">Loading calculator interface...</div>,
+      ssr: true,
+    }),
+  },
+  'gpa-calculator': {
+    id: 'gpa-calculator',
+    component: dynamic(() => import('./utility/GPACalculator').then(mod => mod.GPACalculator), {
+      loading: () => <div className="p-12 text-center text-secondary-500 animate-pulse bg-card rounded-xl border border-border">Loading calculator interface...</div>,
+      ssr: true,
+    }),
+  },
+  'auto-loan-calculator': {
+    id: 'auto-loan-calculator',
+    component: dynamic(() => import('./finance/AutoLoanCalculator').then(mod => mod.AutoLoanCalculator), {
+      loading: () => <div className="p-12 text-center text-secondary-500 animate-pulse bg-card rounded-xl border border-border">Loading calculator interface...</div>,
+      ssr: true,
+    }),
+  },
+  'tax-calculator-2025': {
+    id: 'tax-calculator-2025',
+    component: dynamic(() => import('./salary-tax/TaxCalculator2025').then(mod => mod.TaxCalculator2025), {
+      loading: () => <div className="p-12 text-center text-secondary-500 animate-pulse bg-card rounded-xl border border-border">Loading calculator interface...</div>,
+      ssr: true,
+    }),
+  },
+  'tip-calculator': {
+    id: 'tip-calculator',
+    component: dynamic(() => import('./utility/TipCalculator').then(mod => mod.TipCalculator), {
+      loading: () => <div className="p-12 text-center text-secondary-500 animate-pulse bg-card rounded-xl border border-border">Loading calculator interface...</div>,
+      ssr: true,
+    }),
+  },
   // Future calculators will be registered here
 };
 
